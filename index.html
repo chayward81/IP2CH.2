@@ -15,44 +15,45 @@
 			</header>
 
 			<div class="intro-question">
-				<form>
+				<form id="intro-question">
 					<div class="form-group">
 						<label for="">Would you like to travel outside of the United States?</label>
 						<div class="checkbox">
 						  <label>
-						    <input type="checkbox" id="outside-US" value="Yes">
+						    <input type="checkbox" id="outside-yes" unchecked="unchecked">
 						    Yes
 						  </label>
 						</div>
 						<div class="checkbox">
 						  <label>
-						    <input type="checkbox" id="outside-US" value="No">
+						    <input type="checkbox" id="outside-no" unchecked="unchecked">
 						    No
 						  </label>
 						</div>
 					</div>
+					<button type="submit" class="btn btn-primary btn-block">Submit</button>
 				<form>
 			</div>
 
 			<div class="survey">
-				<form>
+				<form id="survey">
 					<div class="form-group">
 						<label for="world">Which parts of the world would you most like to visit?</label>
 						<div class="checkbox">
 						  <label>
-						    <input type="checkbox" id="world1" value="world-hot">
+						    <input type="checkbox" id="world1" unchecked="unchecked">
 						    Africa, Southern Asia, Caribbean, Mexico and Central America
 						  </label>
 						</div>
 						<div class="checkbox">
 						  <label>
-						    <input type="checkbox" id="world2" value="world-mild">
+						    <input type="checkbox" id="world2" unchecked="unchecked">
 						    Central Europe, including the UK, Germany, France and Northern Spain
 						  </label>
 						</div>
 						<div class="checkbox">
 						  <label>
-						    <input type="checkbox" id="world3" value="world-cold">
+						    <input type="checkbox" id="world3" unchecked="unchecked">
 						    The Arctic circle, including Northern Scandinavia and Siberia
 						  </label>
 						</div>
@@ -62,13 +63,13 @@
 						<label for="culture">What type of culture appeals to you the most?</label>
 						<div class="checkbox">
 						  <label>
-						    <input type="checkbox" id="culture1" value="eastern">
+						    <input type="checkbox" id="culture1" unchecked="unchecked">
 						    Eastern culture
 						  </label>
 						</div>
 						<div class="checkbox">
 						  <label>
-						    <input type="checkbox" id="culture2" value="western">
+						    <input type="checkbox" id="culture2" unchecked="unchecked">
 						    Western culture
 						  </label>
 						</div>
@@ -78,19 +79,19 @@
 						<label for="weather">What kind of weather do you typically enjoy while on vacation?</label>
 						<div class="checkbox">
 						  <label>
-						    <input type="checkbox" id="weather1" value="hot">
+						    <input type="checkbox" id="weather1" unchecked="unchecked">
 						    Hot and Tropical/Hot and Desert
 						  </label>
 						</div>
 						<div class="checkbox">
 						  <label>
-						    <input type="checkbox" id="weather2" value="mild">
+						    <input type="checkbox" id="weather2" unchecked="unchecked">
 						    Mild, temperate weather - Average temp of 65 F
 						  </label>
 						</div>
 						<div class="checkbox">
 						  <label>
-						    <input type="checkbox" id="weather3" value="cold">
+						    <input type="checkbox" id="weather3" unchecked="unchecked">
 						    Cold weather for winter activities
 						  </label>
 						</div>
@@ -100,34 +101,53 @@
 						<label for="fun">What sounds most fun to you out of the following?</label>
 						<div class="checkbox">
 						  <label>
-						    <input type="checkbox" id="fun1" value="exercise">
+						    <input type="checkbox" id="fun1" unchecked="unchecked">
 						    I love any outdoor activities involving exercise
 						  </label>
 						</div>
 						<div class="checkbox">
 						  <label>
-						    <input type="checkbox" id="fun2" value="shopping">
+						    <input type="checkbox" id="fun2" unchecked="unchecked">
 						    I love to shop at local markets and stores
 						  </label>
 						</div>
 						<div class="checkbox">
 						  <label>
-						    <input type="checkbox" id="fun3" value="eating">
+						    <input type="checkbox" id="fun3" unchecked="unchecked">
 						    I love to dine at local restaurants and try local specialty foods
 						  </label>
 						</div>
 					</div>
 
+					<button type="submit" class="btn btn-primary btn-block">Submit Survey Answers!</button>
+
 				</form>
 			</div>
 
-			<div class="result1">
+			<div class="us-only">
+				<h3>Sorry, this App is for people that want to travel outside of 
+				    the United States. Read <u>On The Road</u> or something.</h3>
+			</div> 
+
+			<div class="dest1">
+				<h1>Bali, Indonesia</h1>
+				<p>Based on your answers to this survey, you should consider a vacation in beautiful Bali, Indonesia!</p>
 				<img src="img/Bali.jpg" alt="Picture of Bali">
-				<p>Based on your answers to this survey, you should consider a vacation in 
-					 beautiful Bali, Indonesia!</p>
 			</div>
 
-			<div class=
+			<div class="dest2">
+				<h1>Edinburgh, Scotland</h1>
+				<p>Based on your answers to this survey, you should consider a
+					 vacation in beautiful Edinburgh, Scotland!</p>
+				<img src="img/edinburgh.jpg" alt="Picture of Edinburgh">
+			</div>
+
+			<div class="dest3">
+				<h1>Helsinki, Finland</h1>
+				<p>Based on your answers to this survey, you should consider a 
+					 vacation in beautiful Helsinki, Finland!</p>
+				<img src="img/helsinki.jpg" alt="Picture of Helsinki">
+			</div> 
 
 
 		</div>

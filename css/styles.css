@@ -13,6 +13,11 @@ header {
 	text-align: left
 }
 
+.us-only {
+	display: none;
+	text-align: center;
+}
+
 .result1 {
 	display: none;
 	text-align: center;
@@ -22,3 +27,20 @@ header {
 	position: center;
 }
 
+.result2 {
+	display: none;
+	text-align: center;
+}
+
+.result2 img { 
+	position: center;
+}
+
+.result3 {
+	display: none;
+	text-align: center;
+}
+
+.result3 img { 
+	position: center;
+}
