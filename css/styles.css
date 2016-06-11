@@ -1,0 +1,24 @@
+header {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.intro-question {
+	margin-top: 120px;
+	text-align: center;
+}
+
+.survey {
+	display: none;
+	text-align: left
+}
+
+.result1 {
+	display: none;
+	text-align: center;
+}
+
+.result1 img {
+	position: center;
+}
+
