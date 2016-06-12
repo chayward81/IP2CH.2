@@ -1,0 +1,37 @@
+header {
+	text-align: center;
+	margin-bottom: 40px;
+}
+
+.survey {
+	text-align: left
+}
+
+.us-only {
+	display: none;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.error-page {
+	display: none;
+	text-align: center;
+}
+
+.dest1 {
+	display: none;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.dest2 {
+	display: none;
+	text-align: center;
+	margin-top: 200px;
+}
+
+.dest3 {
+	display: none;
+	text-align: center;
+	margin-top: 200px;
+}

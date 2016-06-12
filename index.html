@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+		<link href="css/styles.css" rel="stylesheet" type="text/css">
+		<script src="js/jquery-3.0.0.js"></script>
+		<script src="js/scripts.js"></script>
+		<title>Vacation Suggester</title>
+	</head>
+	<body>
+		<div class="container">
+			
+			<div id="header">
+				<h1>Vacation Suggester</h1>
+				<h4> Answer a series of questions and this app will tell you where you should go on your next vacation!</h4>
+			</div>
+
+			<div class="us-only">
+				<h3>Sorry, this App is for people that want to travel outside of 
+				    the United States. Read <u>On The Road</u> or something.</h3>
+			</div> 
+
+			<div class="error-page">
+				<h3>Sorry, you must've input into one of the text fields incorrectly. please check your inputs and follow the instructions in the form.</h3>
+			</div>
+
+			<div class="dest1">
+				<h1>Bali, Indonesia</h1>
+				<p>Based on your answers to this survey, you should consider a vacation in beautiful Bali, Indonesia!</p>
+				<img src="img/Bali.jpg" alt="Picture of Bali">
+			</div>
+
+			<div class="dest2">
+				<h1>Edinburgh, Scotland</h1>
+				<p>Based on your answers to this survey, you should consider a
+					 vacation in beautiful Edinburgh, Scotland!</p>
+				<img src="img/edinburgh.jpg" alt="Picture of Edinburgh">
+			</div>
+
+			<div class="dest3">
+				<h1>Lake Baikal, Siberia</h1>
+				<p>Based on your answers to this survey, you should consider a 
+					 vacation in beautiful Lake Baikal in Siberia!</p>
+				<img src="img/siberia.jpg" alt="Picture of siberia">
+			</div> 
+
+
+			<div class="survey">
+				<form id="survey">
+
+					<div class="form-group">
+						<label for="outside">Would you like to travel outside of the United States? (Enter: Yes/No)</label>
+					  <input id="outside" class="form-control" type="text">
+					</div>
+
+					<div class="form-group">
+						<label for="weather">What kind of weather do you like? (Enter: hot, cold or mild)</label>
+					  <input id="weather" class="form-control" type="text">
+					</div>
+
+					<div class="form-group">
+						<label for="world">What sounds more appealing? (Enter tropics, europe or arctic?)</label>
+					  <input id="world" class="form-control" type="text">
+					</div>
+
+					<div class="form-group">
+						<label for="culture">What type of culture appeals to you the most?</label>
+						<div class="checkbox">
+						  <label>
+						    <input type="checkbox" id="culture1" unchecked="unchecked">
+						    Eastern culture
+						  </label>
+						</div>
+						<div class="checkbox">
+						  <label>
+						    <input type="checkbox" id="culture2" unchecked="unchecked">
+						    Western culture
+						  </label>
+						</div>
+					</div>
+
+					<div class="form-group">
+						<label for="fun">What sounds most fun to you out of the following?</label>
+						<div class="checkbox">
+						  <label>
+						    <input type="checkbox" id="fun1" unchecked="unchecked">
+						    I love any outdoor activities involving exercise
+						  </label>
+						</div>
+						<div class="checkbox">
+						  <label>
+						    <input type="checkbox" id="fun2" unchecked="unchecked">
+						    I love to shop at local markets and stores
+						  </label>
+						</div>
+						<div class="checkbox">
+						  <label>
+						    <input type="checkbox" id="fun3" unchecked="unchecked">
+						    I love to dine at local restaurants and try local specialty foods
+						  </label>
+						</div>
+					</div>
+
+					<button type="submit" class="btn btn-primary btn-block">Submit Survey Answers!</button>
+
+				</form>
+			</div>
+
+		</div>
+	</body>
+</html>
