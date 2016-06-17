@@ -1,18 +1,15 @@
-<<<<<<< HEAD
 # IP2CH.2
 
 #### _This application is a survey designed to point the user to a non-US vacation destination based on the answers to the survey. {06/11/2016}_
-=======
-# IP2CH
-
-#### _This application is a survey designed to point the user to a vacation destination based on the answers to the survey. {06/11/2016}_
->>>>>>> 152edacf8d50d242020ed17411058d7b34a03cb8
 
 #### By _**Charlie Hayward**_
 
+## Note for Reviewer
+
+_My original submission had much less commits than this version. This was due to difficulties resolving merge conflicts with git. I have since resolved the conflicts and was able to pull the commits from the initial repository to the new repository, showing a more complete history of this app's development than the initial submission showed._
+
 ## Description
 
-<<<<<<< HEAD
 _This application asks 5 questions and displays one of three specific non-US vacation destinations to the user based on their answers. The result is dependent upon two of the questions in the survey. There is also an error page for users that answer 'no' to the first question._
 
 ## Setup/Installation Requirements
@@ -25,20 +22,6 @@ _Very simple. Download bootstrap.css and the latest version of jQuery and add th
 ## Known Bugs
 
 * The ability to check multiple items. This is not so much a bug, since the checkbox fields don't rely on logic in the scripts.js files.
-=======
-_This application asks 5 questions and displays a specific vacation destination to the user based on their answers._
-
-## Setup/Installation Requirements
-
-* bootstrap
-* jQuery
-
-_Very simple. Just open the index.html file in any web browser to run this app._
-
-## Known Bugs
-
-_All logic is currently incomplete in this application. The destination results are showing when they should be hidden._
->>>>>>> 152edacf8d50d242020ed17411058d7b34a03cb8
 
 ## Support and contact details
 
