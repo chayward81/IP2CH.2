@@ -23,23 +23,23 @@ $(document).ready(function() {
 		var question1 = $("#outside").val();
 		var question2 = $("#weather").val();
 		var question3 = $("#world").val();
-		var q1Res = exitApp(question1);
+		var question1Result = exitApp(question1);
 
-		if (q1Res === false) {
+		if (question1Result === false) {
 			$(".survey").hide();
 			$("#header").hide();
 			$(".us-only").show();
-		} else if(q1Res === true) {
-			var destRes = geography(question2, question3);
-			if (destRes === "bali") {
+		} else if(question1Result === true) {
+			var destinationResult = geography(question2, question3);
+			if (destinationResult === "bali") {
 				$(".survey").hide();
 				$("#header").hide();
 				$(".dest1").show();
-			} else if(destRes === "edinburgh") {
+			} else if(destinationResult === "edinburgh") {
 				$(".survey").hide();
 				$("#header").hide();
 				$(".dest2").show();
-			} else if(destRes === "siberia") {
+			} else if(destinationResult === "siberia") {
 				$(".survey").hide();
 				$("#header").hide();
 				$(".dest3").show();
