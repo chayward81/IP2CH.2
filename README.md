@@ -14,6 +14,7 @@ _This application asks 5 questions and displays one of three specific non-US vac
 
 ## Setup/Installation Requirements
 
+* http://chayward81.github.io/IP2CH.2
 * bootstrap.css
 * jQuery.js
 
